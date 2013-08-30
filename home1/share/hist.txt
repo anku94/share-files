@@ -1,0 +1,28 @@
+ls
+cat flai
+cat flair.txt
+cat flair.txt | grep want
+cat flair.txt | grep want | wc
+exit
+exit
+quit
+ls
+cat flair.txt | grep wow
+cat flair.txt | grep a
+!hist
+hist
+hist5
+cat flair.txt | grep want
+exit
+quit
+ls
+grep a < shell.c
+grep else < shell.c
+grep else <shell.c
+exit
+quit
+ls
+cd ..
+ls
+exit
+quit

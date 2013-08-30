@@ -1,0 +1,4 @@
+gcc peer1.c -o peer1 -lcrypto
+gcc peer2.c -o peer2 -lcrypto
+cp peer1 home1
+cp peer2 home2

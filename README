@@ -1,0 +1,20 @@
+===========================
+Assignment 1 - Networks
+201101010
+201101205
+===========================
+
+A simple file-sharing application between two peers. Written using TCP Socket Programming in C.
+
+Features -
+
+* MD5 hash verification and update
+* Download/upload to client
+* Exchange lists of available files
+* Check for any updates in files.
+
+- Execute ./compile to compile the code
+
+- Run peer1 as home1/peer1 and peer2 as home2/peer2
+
+- home1/share is shared directory for peer1 and home2/share is shared directory for peer2

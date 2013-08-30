@@ -1,0 +1,34 @@
+							Assignment 3: Requirements Analysis and Specification Assignment
+										(Due 27th September, 6:00 pm)
+ 
+ 
+Point of Sale (POS) Statement of Needs
+
+Overview
+
+A Point of Sale (POS) system is commonly found today at most retail store registers. Store merchandise, identified by a price code (UPC), is checked out by a cashier who then accepts payment for the item(s). A UPC is either read by a bar code scanner or manually entered by the cashier. At the completion of a sale, a receipt is created for the customer and sales information is collected for the generation of reports at a later time. The system also provides for processing the return of purchased items and reimbursement to the customer. While many POS systems support multiple terminals that are networked together and interface with external systems (such as inventory control) the primary goal of this system is to develop a self-contained sales terminal application that supports the purchase and return of store merchandise.
+
+System Functions
+
+Sales Terminal Management – Sales Terminals are administered by the store manager. The administrator has the ability to add and remove cashiers from the sales terminal. Cashiers sign in to a sales terminal using an authentication mechanism. Only one cashier may be signed in to a terminal at a time. The store manager has access to administrator functions at any time which are accessible with proper authentication.
+
+Process Sale – Items brought to the checkout are identified by a UPC that is used to obtain the price of the item. The cashier enters the UPC either by scanning the item or manually entering the UPC. Optionally, the cashier may enter a quantity for the number of items being checked out with the same UPC. After the last item has been processed a sales total is calculated and payment is made by the customer.
+
+Cash Payment – At the conclusion of a sale the cashier accepts cash payment from the customer and enters the amount collected as cash tendered. The system computes the change, which is returned to the customer. Both amounts are included in the final sales receipt.
+
+Returned Items – Valid items returned to a cashier are accepted by UPC identification. If the item(s) were purchased within the last thirty (30) days a refund is made to the customer. Items purchased past 30 days receive a slip for store credit. Items purchased beyond 90 days cannot be returned.
+
+Terminal Reports – A store manager may request sales terminal reports that show the activity of terminal over a period of time or based on cashier.
+ 
+ 
+Make sure you explicitly mention any assumptions you make about the system.
+Complete the following activities in teams (Maximum of 2 persons per team). Make sure you explicitly mention both the names and roll numbers in your submission
+Part A:  Identify the stakeholders of the POS System.
+ 
+Part B: Draw a UML use case context diagram for the POS System based on the system functions identified during the initial planning activity. Make sure to identify the actors of the system.
+ 
+Part C: Write the main success scenario (basic flow) for the Process Sale use case. Be sure to identify the preconditions required before beginning the scenario and start the scenario with an Actor action.
+ 
+Part D: Write an alternative scenario for the Process Sale use case in the event the customer asks the cashier to remove an item from the purchase. Make sure you reference PART C, i.e. the numbering of the steps should correspond to the numbering used in PART C.
+ 
+ 
